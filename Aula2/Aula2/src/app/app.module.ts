@@ -8,6 +8,7 @@ import { NoticiaRotativaComponent } from './noticia-rotativa/noticia-rotativa.co
 import { CardNoticiaComponent } from './card-noticia/card-noticia.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { CalcularMediaComponent } from './calcular-media/calcular-media.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FormsModule } from '@angular/forms';
     MenuTopoComponent,
     NoticiaRotativaComponent,
     CardNoticiaComponent,
+    CalcularMediaComponent,
     
   ],
   imports: [
