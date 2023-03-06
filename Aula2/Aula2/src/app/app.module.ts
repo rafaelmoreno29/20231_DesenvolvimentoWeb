@@ -7,6 +7,7 @@ import { MenuTopoComponent } from './menu-topo/menu-topo.component';
 import { NoticiaRotativaComponent } from './noticia-rotativa/noticia-rotativa.component';
 import { CardNoticiaComponent } from './card-noticia/card-noticia.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
