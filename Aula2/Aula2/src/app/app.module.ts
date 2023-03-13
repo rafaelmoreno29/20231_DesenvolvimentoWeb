@@ -9,6 +9,10 @@ import { CardNoticiaComponent } from './card-noticia/card-noticia.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 import { CalcularMediaComponent } from './calcular-media/calcular-media.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { PaginaPaiComponent } from './pagina-pai/pagina-pai.component';
+import { PaginaFilho1Component } from './pagina-filho1/pagina-filho1.component';
+import { PaginaFilho2Component } from './pagina-filho2/pagina-filho2.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +21,10 @@ import { CalcularMediaComponent } from './calcular-media/calcular-media.componen
     NoticiaRotativaComponent,
     CardNoticiaComponent,
     CalcularMediaComponent,
+    NotFoundComponent,
+    PaginaPaiComponent,
+    PaginaFilho1Component,
+    PaginaFilho2Component,
     
   ],
   imports: [
